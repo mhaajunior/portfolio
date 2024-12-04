@@ -1,6 +1,4 @@
-"use client";
-
-import Grid from "@/components/Grid";
+// import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -14,7 +12,7 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <HomeIcon /> }]}
         />
         <Hero />
-        <Grid />
+        {/* <Grid /> */}
         <RecentProjects />
       </div>
     </main>
