@@ -1,8 +1,12 @@
-// import Grid from "@/components/Grid";
+"use client";
+
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { HomeIcon } from "lucide-react";
+import dynamic from "next/dynamic";
+
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 
 export default function Home() {
   return (
@@ -12,7 +16,7 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <HomeIcon /> }]}
         />
         <Hero />
-        {/* <Grid /> */}
+        <Grid />
         <RecentProjects />
       </div>
     </main>
