@@ -39,7 +39,7 @@ const Hero = () => {
             Problem-Solving.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my project"
               icon={<Navigation fill="white" size={15} />}

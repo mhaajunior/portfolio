@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Stack", link: "#stack" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -139,6 +139,128 @@ export const testimonials = [
     title: "Director of AlphaStream Technologies",
   },
 ];
+
+export const stack = [
+  {
+    title: "Front-End Development",
+    sections: [
+      {
+        name: "Languages",
+        lists: [
+          { name: "JavaScript", icon: "" },
+          { name: "TypeScript", icon: "" },
+        ],
+      },
+      {
+        name: "Frameworks & Libraries:",
+        lists: [
+          { name: "React.js", icon: "" },
+          { name: "Vue.js", icon: "" },
+          { name: "Next.js", icon: "" },
+          { name: "Nuxt.js", icon: "" },
+          { name: "Angular", icon: "" },
+        ],
+      },
+      {
+        name: "Styling",
+        lists: [
+          { name: "Tailwind CSS", icon: "" },
+          { name: "Shadcn/ui", icon: "" },
+          { name: "Aceternity UI", icon: "" },
+          { name: "Ant design", icon: "" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Back-End Development",
+    sections: [
+      {
+        name: "Languages",
+        lists: [
+          { name: "Node.js", icon: "" },
+          { name: "Python", icon: "" },
+          { name: "PHP", icon: "" },
+        ],
+      },
+      {
+        name: "Frameworks",
+        lists: [
+          { name: "Express.js", icon: "" },
+          { name: "Fastify", icon: "" },
+        ],
+      },
+      {
+        name: "ORM",
+        lists: [
+          { name: "Prisma", icon: "" },
+          { name: "Drizzle ORM", icon: "" },
+        ],
+      },
+      {
+        name: "Databases",
+        lists: [
+          { name: "MySQL", icon: "" },
+          { name: "PostgreSQL", icon: "" },
+          { name: "MongoDB", icon: "" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "DevOps & Deployment",
+    sections: [
+      {
+        name: "Containerization",
+        lists: [
+          { name: "Docker", icon: "" },
+          { name: "Docker Compose", icon: "" },
+        ],
+      },
+      {
+        name: "CI/CD",
+        lists: [{ name: "GitLab CI/CD", icon: "" }],
+      },
+      {
+        name: "Cloud Services",
+        lists: [
+          { name: "AWS", icon: "" },
+          { name: "Vercel", icon: "" },
+          { name: "Heroku", icon: "" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Tools & Workflow",
+    sections: [
+      {
+        name: "Version Control",
+        lists: [
+          { name: "Git", icon: "" },
+          { name: "GitHub", icon: "" },
+          { name: "GitLab", icon: "" },
+        ],
+      },
+      {
+        name: "Project Management",
+        lists: [
+          { name: "Postman", icon: "" },
+          { name: "Swagger", icon: "" },
+        ],
+      },
+      {
+        name: "Monitoring & Logging",
+        lists: [
+          { name: "Portainer", icon: "" },
+          { name: "Winston", icon: "" },
+        ],
+      },
+    ],
+  },
+];
+
+export type StackProps = typeof stack;
 
 export const companies = [
   {

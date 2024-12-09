@@ -134,7 +134,7 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 4 && (
-            <a href="#about">
+            <a href="#stack">
               <MagicButton
                 title="View My Stack"
                 icon={<Eye />}
