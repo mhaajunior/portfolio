@@ -5,7 +5,6 @@ import RecentProjects from "@/components/RecentProjects";
 import Stack from "@/components/Stack";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
-import { HomeIcon } from "lucide-react";
 import dynamic from "next/dynamic";
 
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
