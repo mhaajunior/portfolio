@@ -1,3 +1,5 @@
+import { StackContent } from "@/components/StackContent";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Stack", link: "#stack" },
@@ -260,7 +262,33 @@ export const stack = [
   },
 ];
 
-export type StackProps = typeof stack;
+export const stackCards = [
+  {
+    category: "Serenity",
+    title: "Front-End Development",
+    src: "/s1.jpg",
+    content: <StackContent stack={stack[0]} />,
+  },
+  {
+    category: "Robust",
+    title: "Back-End Development",
+    src: "/s2.jpg",
+    content: <StackContent stack={stack[1]} />,
+  },
+  {
+    category: "Streamlined",
+    title: "DevOps & Deployment",
+    src: "/s3.jpg",
+    content: <StackContent stack={stack[2]} />,
+  },
+
+  {
+    category: "Collaborative",
+    title: "Tools & Workflow",
+    src: "/s4.jpg",
+    content: <StackContent stack={stack[3]} />,
+  },
+];
 
 export const companies = [
   {
