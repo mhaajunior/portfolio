@@ -31,7 +31,7 @@ export const StackContent = ({ stack }: StackContentProps) => {
             {section.lists.map((list, idx2) => (
               <div
                 key={idx2}
-                className="flex flex-col items-center justify-center gap-5 w-24 lg:w-36"
+                className="flex flex-col items-center justify-center gap-5 w-16 md:w-24 lg:w-36"
               >
                 <div>
                   <img src={list.icon} alt="icon" />
