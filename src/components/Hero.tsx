@@ -11,7 +11,7 @@ const Hero = () => {
         {/* temp */}
         <Cake
           size={80}
-          className="absolute left-10 bottom-20 z-50 !dark:text-black !text-black"
+          className="absolute left-0 bottom-0 z-20 !dark:text-black !text-black"
         />
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
