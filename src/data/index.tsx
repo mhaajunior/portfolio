@@ -251,10 +251,10 @@ export const stack = [
         name: "Version Control",
         lists: [
           { name: "Git", icon: "/tech/Git.png" },
-          { name: "GitHub", icon: "/tech/Github.png" },
+          { name: "GitHub", icon: "/tech/GitHub.png" },
           //temp
           // { name: "GitLab", icon: "/tech/Gitlab.png" },
-          { name: "Cake", icon: "/tech/Gitlab.png" },
+          { name: "Cake", icon: "/tech/GitLab.png" },
           { name: "Sourcetree", icon: "/tech/Sourcetree.png" },
         ],
       },
