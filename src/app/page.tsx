@@ -3,6 +3,7 @@
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import Stack from "@/components/Stack";
+import { ThemeSwitcherBtn } from "@/components/ThemeSwitcherBtn";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import dynamic from "next/dynamic";
@@ -18,6 +19,10 @@ export default function Home() {
         <Grid />
         <Stack />
         <RecentProjects />
+        {/* temp */}
+        <div className="fixed right-0 top-0">
+          <ThemeSwitcherBtn />
+        </div>
       </div>
     </main>
   );

@@ -1,10 +1,12 @@
 import { StackContent } from "@/components/StackContent";
+import { Contact, Layers, Lock, Star, User } from "lucide-react";
 
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Stack", link: "#stack" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: "#about", icon: <User /> },
+  { name: "Stack", link: "#stack", icon: <Layers /> },
+  { name: "Projects", link: "#projects", icon: <Star /> },
+  { name: "Contact", link: "#contact", icon: <Contact /> },
+  { name: "Secret", link: "/secret", icon: <Lock /> },
 ];
 
 export const gridItems = [
@@ -96,7 +98,14 @@ export const projects = [
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/temp/cake.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/c.svg",
+    ],
     link: "https://github.com/adrianhajdin/ai_saas_app",
   },
   {
@@ -149,27 +158,27 @@ export const stack = [
       {
         name: "Languages",
         lists: [
-          { name: "JavaScript", icon: "" },
-          { name: "TypeScript", icon: "" },
+          { name: "JavaScript", icon: "/tech/JavaScript.png" },
+          { name: "TypeScript", icon: "/tech/TypeScript.png" },
         ],
       },
       {
         name: "Frameworks & Libraries:",
         lists: [
-          { name: "React.js", icon: "" },
-          { name: "Vue.js", icon: "" },
-          { name: "Next.js", icon: "" },
-          { name: "Nuxt.js", icon: "" },
-          { name: "Angular", icon: "" },
+          { name: "React", icon: "/tech/React.png" },
+          { name: "Vue.js", icon: "/tech/Vue.js.png" },
+          { name: "Next.js", icon: "/tech/Next.js.png" },
+          { name: "Nuxt JS", icon: "/tech/Nuxt_JS.png" },
+          { name: "Angular", icon: "/tech/Angular.png" },
         ],
       },
       {
         name: "Styling",
         lists: [
-          { name: "Tailwind CSS", icon: "" },
-          { name: "Shadcn/ui", icon: "" },
-          { name: "Aceternity UI", icon: "" },
-          { name: "Ant design", icon: "" },
+          { name: "Tailwind CSS", icon: "/tech/Tailwind_CSS.png" },
+          { name: "Shadcn/ui", icon: "/tech/Shadcn.png" },
+          { name: "Aceternity UI", icon: "/tech/Aceternity.png" },
+          { name: "Ant design", icon: "/tech/Ant_Design.png" },
         ],
       },
     ],
@@ -180,31 +189,32 @@ export const stack = [
       {
         name: "Languages",
         lists: [
-          { name: "Node.js", icon: "" },
-          { name: "Python", icon: "" },
-          { name: "PHP", icon: "" },
+          { name: "Node.js", icon: "/tech/Node.js.png" },
+          { name: "Python", icon: "/tech/Python.png" },
+          { name: "PHP", icon: "/tech/PHP.png" },
         ],
       },
       {
         name: "Frameworks",
         lists: [
-          { name: "Express.js", icon: "" },
-          { name: "Fastify", icon: "" },
+          { name: "Express", icon: "/tech/Express.png" },
+          { name: "Fastify", icon: "/tech/Fastify.png" },
+          { name: "Nest.js", icon: "/tech/Nest.js.png" },
         ],
       },
       {
         name: "ORM",
         lists: [
-          { name: "Prisma", icon: "" },
-          { name: "Drizzle ORM", icon: "" },
+          { name: "Prisma", icon: "/tech/Prisma.png" },
+          { name: "Drizzle ORM", icon: "/tech/Drizzle.png" },
         ],
       },
       {
         name: "Databases",
         lists: [
-          { name: "MySQL", icon: "" },
-          { name: "PostgreSQL", icon: "" },
-          { name: "MongoDB", icon: "" },
+          { name: "MySQL", icon: "/tech/MySQL.png" },
+          { name: "PostgreSQL", icon: "/tech/PostgresSQL.png" },
+          { name: "MongoDB", icon: "/tech/MongoDB.png" },
         ],
       },
     ],
@@ -215,20 +225,21 @@ export const stack = [
       {
         name: "Containerization",
         lists: [
-          { name: "Docker", icon: "" },
-          { name: "Docker Compose", icon: "" },
+          { name: "Docker", icon: "/tech/Docker.png" },
+          { name: "Docker Compose", icon: "/tech/Docker_Compose.png" },
         ],
       },
       {
         name: "CI/CD",
-        lists: [{ name: "GitLab CI/CD", icon: "" }],
+        lists: [{ name: "GitLab CI/CD", icon: "/tech/Gitlab_CI.png" }],
       },
       {
-        name: "Cloud Services",
+        name: "Services",
         lists: [
-          { name: "AWS", icon: "" },
-          { name: "Vercel", icon: "" },
-          { name: "Heroku", icon: "" },
+          { name: "NGINX", icon: "/tech/NGINX.png" },
+          { name: "AWS", icon: "/tech/AWS.png" },
+          { name: "Vercel", icon: "/tech/Vercel.png" },
+          { name: "Heroku", icon: "/tech/Heroku.png" },
         ],
       },
     ],
@@ -239,23 +250,26 @@ export const stack = [
       {
         name: "Version Control",
         lists: [
-          { name: "Git", icon: "" },
-          { name: "GitHub", icon: "" },
-          { name: "GitLab", icon: "" },
+          { name: "Git", icon: "/tech/Git.png" },
+          { name: "GitHub", icon: "/tech/Github.png" },
+          //temp
+          // { name: "GitLab", icon: "/tech/Gitlab.png" },
+          { name: "Cake", icon: "/tech/Gitlab.png" },
+          { name: "Sourcetree", icon: "/tech/Sourcetree.png" },
         ],
       },
       {
         name: "Project Management",
         lists: [
-          { name: "Postman", icon: "" },
-          { name: "Swagger", icon: "" },
+          { name: "Postman", icon: "/tech/Postman.png" },
+          { name: "Swagger", icon: "/tech/Swagger.png" },
         ],
       },
       {
         name: "Monitoring & Logging",
         lists: [
-          { name: "Portainer", icon: "" },
-          { name: "Winston", icon: "" },
+          { name: "Portainer", icon: "/tech/Portainer.png" },
+          { name: "Winston", icon: "/tech/Winston.png" },
         ],
       },
     ],

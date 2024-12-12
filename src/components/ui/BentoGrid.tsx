@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Download, Eye } from "lucide-react";
+import { Cake, Download, Eye } from "lucide-react";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -53,6 +53,8 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const [downloaded, setDownloaded] = useState(false);
+  //temp
+  const [showCake, setShowCake] = useState(false);
 
   const defaultOptions = {
     loop: downloaded,
@@ -74,6 +76,7 @@ export const BentoGridItem = ({
         "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
         className
       )}
+      onClick={() => setShowCake((prev) => !prev)}
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
@@ -143,6 +146,8 @@ export const BentoGridItem = ({
               />
             </a>
           )}
+          {/* temp */}
+          {id === 5 && showCake && <Cake />}
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}
