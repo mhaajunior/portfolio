@@ -1,12 +1,11 @@
 import { StackContent } from "@/components/StackContent";
-import { Contact, Layers, Lock, Star, User } from "lucide-react";
+import { Contact, Layers, Star, User } from "lucide-react";
 
 export const navItems = [
   { name: "About", link: "#about", icon: <User /> },
   { name: "Stack", link: "#stack", icon: <Layers /> },
   { name: "Projects", link: "#projects", icon: <Star /> },
   { name: "Contact", link: "#contact", icon: <Contact /> },
-  { name: "Secret", link: "/secret", icon: <Lock /> },
 ];
 
 export const gridItems = [
@@ -98,14 +97,7 @@ export const projects = [
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/temp/cake.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/c.svg",
-    ],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/ai_saas_app",
   },
   {
@@ -115,39 +107,6 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/adrianhajdin/iphone",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
   },
 ];
 
@@ -163,7 +122,7 @@ export const stack = [
         ],
       },
       {
-        name: "Frameworks & Libraries:",
+        name: "Frameworks & Libraries",
         lists: [
           { name: "React", icon: "/tech/React.png" },
           { name: "Vue.js", icon: "/tech/Vue.js.png" },
@@ -203,10 +162,12 @@ export const stack = [
         ],
       },
       {
-        name: "ORM",
+        name: "ORM & Services",
         lists: [
           { name: "Prisma", icon: "/tech/Prisma.png" },
-          { name: "Drizzle ORM", icon: "/tech/Drizzle.png" },
+          { name: "Knex.js", icon: "/tech/Knex.js.png" },
+          { name: "Appwrite", icon: "/tech/Appwrite.png" },
+          { name: "Cloudflare", icon: "/tech/Cloudflare.png" },
         ],
       },
       {
@@ -234,9 +195,15 @@ export const stack = [
         lists: [{ name: "GitLab CI/CD", icon: "/tech/Gitlab_CI.png" }],
       },
       {
-        name: "Services",
+        name: "OS & Web Server",
         lists: [
+          { name: "Linux", icon: "/tech/Linux.png" },
           { name: "NGINX", icon: "/tech/NGINX.png" },
+        ],
+      },
+      {
+        name: "Cloud Services",
+        lists: [
           { name: "AWS", icon: "/tech/AWS.png" },
           { name: "Vercel", icon: "/tech/Vercel.png" },
           { name: "Heroku", icon: "/tech/Heroku.png" },
@@ -252,9 +219,7 @@ export const stack = [
         lists: [
           { name: "Git", icon: "/tech/Git.png" },
           { name: "GitHub", icon: "/tech/GitHub.png" },
-          //temp
-          // { name: "GitLab", icon: "/tech/Gitlab.png" },
-          { name: "Cake", icon: "/tech/GitLab.png" },
+          { name: "GitLab", icon: "/tech/Gitlab.png" },
           { name: "Sourcetree", icon: "/tech/Sourcetree.png" },
         ],
       },
@@ -268,6 +233,7 @@ export const stack = [
       {
         name: "Monitoring & Logging",
         lists: [
+          { name: "Sentry", icon: "/tech/Sentry.png" },
           { name: "Portainer", icon: "/tech/Portainer.png" },
           { name: "Winston", icon: "/tech/Winston.png" },
         ],
@@ -304,65 +270,32 @@ export const stackCards = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Front-end Developer",
+    desc: "Collaborated with cross-functional teams, including designers and back-end developers, to implement features.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Full Stack Developer ",
+    desc: "Designed and developed web applications using front-end frameworks (React.js, Angular, Vue.js) and back-end technologies (Node.js, Express.js).",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "PHP Developer",
+    desc: "Implemented MVC architecture, ensuring code organization and maintainability.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Software Engineer",
+    desc: "Participated in all stages of the software development life cycle, including requirement analysis, design, coding, testing, and deployment.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -372,13 +305,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/mhaajunior",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://github.com/mhaajunior",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://github.com/mhaajunior",
   },
 ];

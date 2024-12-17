@@ -2,17 +2,12 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
-import { Cake, Navigation } from "lucide-react";
+import { Navigation } from "lucide-react";
 
 const Hero = () => {
   return (
     <div className="flex items-center justify-center h-screen relative">
       <div>
-        {/* temp */}
-        <Cake
-          size={80}
-          className="absolute left-0 bottom-0 z-20 !dark:text-black-100 !text-black-100"
-        />
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"

@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { Button } from "./ui/MovingBorders";
 
 interface StackProps {
   title: string;
@@ -19,14 +19,14 @@ export const StackContent = ({ stack }: StackContentProps) => {
   return (
     <>
       {stack.sections.map((section, idx1) => (
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.3 * idx1 }}
+        <Button
           key={idx1}
-          className="flex flex-col gap-5 p-5 border rounded-lg bg-black-300"
+          duration={Math.floor(Math.random() * 10000) + 10000}
+          borderRadius="1rem"
+          className="flex flex-col gap-5 items-start p-5 text-white border-neutral-200 dark:border-slate-800"
+          containerClassName="w-full cursor-auto min-h-[150px] md:min-h-[230px] bg-black-300"
         >
-          <h1 className="mb-2 sm:mb-5 ">{section.name}</h1>
+          <h1 className="mb-2 sm:mb-5 text-xl">{section.name}</h1>
           <div className="flex flex-wrap gap-5">
             {section.lists.map((list, idx2) => (
               <div
@@ -36,13 +36,13 @@ export const StackContent = ({ stack }: StackContentProps) => {
                 <div>
                   <img src={list.icon} alt="icon" />
                 </div>
-                <span className="text-xs text-white-100 sm:line-clamp-1 hidden">
+                <span className="text-xs text-white-100 line-clamp-1">
                   {list.name}
                 </span>
               </div>
             ))}
           </div>
-        </motion.div>
+        </Button>
       ))}
     </>
   );
