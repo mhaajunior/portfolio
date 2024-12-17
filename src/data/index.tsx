@@ -219,7 +219,7 @@ export const stack = [
         lists: [
           { name: "Git", icon: "/tech/Git.png" },
           { name: "GitHub", icon: "/tech/GitHub.png" },
-          { name: "GitLab", icon: "/tech/Gitlab.png" },
+          { name: "GitLab", icon: "/tech/GitLab.png" },
           { name: "Sourcetree", icon: "/tech/Sourcetree.png" },
         ],
       },
