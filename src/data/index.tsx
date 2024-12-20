@@ -90,6 +90,9 @@ export const projects = [
       "/tech/Vercel.png",
     ],
     link: "https://budget-tracker-ebon-ten.vercel.app",
+    github: [
+      { label: "", link: "https://github.com/mhaajunior/budget-tracker" },
+    ],
   },
   {
     id: 2,
@@ -98,6 +101,16 @@ export const projects = [
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
+    github: [
+      {
+        label: "Front-end",
+        link: "https://github.com/mhaajunior/budget-tracker",
+      },
+      {
+        label: "Back-end",
+        link: "https://github.com/mhaajunior/budget-tracker",
+      },
+    ],
   },
   {
     id: 3,
@@ -106,6 +119,12 @@ export const projects = [
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/ai_saas_app",
+    github: [
+      {
+        label: "Front-end",
+        link: "https://github.com/mhaajunior/budget-tracker",
+      },
+    ],
   },
   {
     id: 4,
@@ -114,6 +133,12 @@ export const projects = [
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/adrianhajdin/iphone",
+    github: [
+      {
+        label: "Front-end",
+        link: "https://github.com/mhaajunior/budget-tracker",
+      },
+    ],
   },
 ];
 
@@ -233,6 +258,7 @@ export const stack = [
       {
         name: "Project Management",
         lists: [
+          { name: "Jira", icon: "/tech/Jira.png" },
           { name: "Postman", icon: "/tech/Postman.png" },
           { name: "Swagger", icon: "/tech/Swagger.png" },
         ],
