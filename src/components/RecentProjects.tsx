@@ -1,7 +1,7 @@
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
-import { ArrowBigDown, ChevronDown, Navigation } from "lucide-react";
+import { ChevronDown, Navigation } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
