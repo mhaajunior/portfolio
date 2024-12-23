@@ -82,12 +82,11 @@ export const projects = [
     des: "A Budget Tracker application helps users manage their personal finances by tracking income and expenses.",
     img: "/project/budget_tracker.png",
     iconLists: [
-      "/tech/Typescript.png",
+      "/tech/TypeScript.png",
       "/tech/Next.js.png",
       "/tech/Tailwind_CSS.png",
       "/tech/Shadcn.png",
       "/tech/Prisma.png",
-      "/tech/Vercel.png",
     ],
     link: "https://budget-tracker-ebon-ten.vercel.app",
     github: [
