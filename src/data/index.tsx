@@ -95,19 +95,21 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "CarePulse - Patient Management System",
+    des: "CarePulse is a software solution designed to streamline and optimize healthcare providers, administrative, clinical, and operational tasks.",
+    img: "/project/carepulse.png",
+    iconLists: [
+      "/tech/TypeScript.png",
+      "/tech/Next.js.png",
+      "/tech/Shadcn.png",
+      "/tech/Appwrite.png",
+      "/tech/Sentry.png",
+    ],
+    link: "https://carepulse-rouge.vercel.app",
     github: [
       {
-        label: "Front-end",
-        link: "https://github.com/mhaajunior/budget-tracker",
-      },
-      {
-        label: "Back-end",
-        link: "https://github.com/mhaajunior/budget-tracker",
+        label: "",
+        link: " https://github.com/mhaajunior/carepulse",
       },
     ],
   },
