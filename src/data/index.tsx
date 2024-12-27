@@ -161,7 +161,6 @@ export const stack = [
           { name: "Vue.js", icon: "/tech/Vue.js.png" },
           { name: "Next.js", icon: "/tech/Next.js.png" },
           { name: "Nuxt JS", icon: "/tech/Nuxt_JS.png" },
-          { name: "Angular", icon: "/tech/Angular.png" },
         ],
       },
       {
@@ -200,7 +199,6 @@ export const stack = [
           { name: "Prisma", icon: "/tech/Prisma.png" },
           { name: "Knex.js", icon: "/tech/Knex.js.png" },
           { name: "Appwrite", icon: "/tech/Appwrite.png" },
-          { name: "Cloudflare", icon: "/tech/Cloudflare.png" },
         ],
       },
       {
