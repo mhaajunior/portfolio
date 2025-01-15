@@ -77,6 +77,21 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 4,
+    title: "Retail NSO - Quarterly Sales Analysis",
+    des: "The Quarterly Sales Analysis provides a comprehensive review of sales performance over a three-month period.",
+    img: "/project/retail.png",
+    iconLists: [
+      "/tech/Next.js.png",
+      "/tech/Ant_Design.png",
+      "/tech/Prisma.png",
+      "/tech/Docker.png",
+      "/tech/Linux.png",
+    ],
+    link: "https://retail.nso.go.th",
+    github: [],
+  },
+  {
     id: 1,
     title: "Budget Tracker",
     des: "A Budget Tracker application helps users manage their personal finances by tracking income and expenses.",
@@ -133,20 +148,6 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  //   github: [
-  //     {
-  //       label: "Front-end",
-  //       link: "https://github.com/mhaajunior/budget-tracker",
-  //     },
-  //   ],
-  // },
 ];
 
 export const stack = [

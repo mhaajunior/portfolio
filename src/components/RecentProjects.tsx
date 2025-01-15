@@ -65,7 +65,15 @@ const RecentProjects = () => {
               </PinContainer>
             </div>
             <div className="w-full flex items-center justify-center">
-              {github.length <= 1 ? (
+              {github.length === 0 && (
+                <div
+                  key={id}
+                  className="w-[180px] p-3 flex justify-center items-center rounded-lg border border-black-300"
+                >
+                  Github Unavailable
+                </div>
+              )}
+              {github.length === 1 && (
                 <div
                   key={id}
                   className="w-[180px] p-1 cursor-pointer flex justify-center items-center rounded-lg border border-black-300"
@@ -79,7 +87,8 @@ const RecentProjects = () => {
                     <span>Repository</span>
                   </a>
                 </div>
-              ) : (
+              )}
+              {github.length > 1 && (
                 <DropdownMenu>
                   <DropdownMenuTrigger className="w-[180px] p-3 cursor-pointer flex gap-2 justify-center items-center rounded-lg border border-black-300">
                     <img src="/git.svg" alt="github" />
