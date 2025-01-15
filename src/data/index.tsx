@@ -115,32 +115,38 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Zentry Clone - Award Winning Website",
+    des: "Zentry Gaming is where innovation meets entertainment, offering gamers a platform that redefines the boundaries of interactive play.",
+    img: "/project/awwwards.png",
+    iconLists: [
+      "/tech/TypeScript.png",
+      "/tech/React.png",
+      "/tech/Tailwind_CSS.png",
+      "/tech/Gsap.png",
+      "/tech/Vercel.png",
+    ],
+    link: "https://awwwards-eta.vercel.app",
     github: [
       {
-        label: "Front-end",
-        link: "https://github.com/mhaajunior/budget-tracker",
+        label: "",
+        link: "https://github.com/mhaajunior/awwwards",
       },
     ],
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-    github: [
-      {
-        label: "Front-end",
-        link: "https://github.com/mhaajunior/budget-tracker",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "https://github.com/adrianhajdin/iphone",
+  //   github: [
+  //     {
+  //       label: "Front-end",
+  //       link: "https://github.com/mhaajunior/budget-tracker",
+  //     },
+  //   ],
+  // },
 ];
 
 export const stack = [
