@@ -204,7 +204,7 @@ export const stack = [
         name: "ORM & Services",
         lists: [
           { name: "Prisma", icon: "/tech/Prisma.png" },
-          { name: "Knex.js", icon: "/tech/Knex.js.png" },
+          { name: "Drizzle", icon: "/tech/Drizzle.png" },
           { name: "Appwrite", icon: "/tech/Appwrite.png" },
         ],
       },
